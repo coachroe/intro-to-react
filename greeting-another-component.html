@@ -11,10 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
     <script type="text/babel">
       class HelloMessage extends React.Component {
+        constructor(props){
+          super(props);
+          this.jerseyNumber = {
+            number: 10
+          }
+        }
         render() {
           return (
             <div>
-              Hello {this.props.name}
+              <h1>Hello {this.props.name}!</h1>
+              <h2>Number: (this.jerseyNumber.number)</h2>
             </div>
           );
         }
