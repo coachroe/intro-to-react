@@ -1,0 +1,14 @@
+1) React documentation notes:
+- JSX is optional
+- with JSX you pass a function as the event handler, not a string
+- use preventDefault vs. false
+- React apps have a single root DOM node
+
+
+1b) Reading documentation more effectively (mentor discussion)
+- Especially good for staring with a "new" language/library
+- code you see in docs used as kind of a "style guide"
+-
+
+Notes:
+- Look up pure functions
